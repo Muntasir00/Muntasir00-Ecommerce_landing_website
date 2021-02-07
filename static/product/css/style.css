@@ -1,0 +1,77 @@
+/*font-family: 'Dosis', sans-serif;*/
+body{
+	font-family: 'Dosis', sans-serif;
+	margin-top: 20px;
+
+}
+.row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.product{
+	padding: 0px 25px;
+}
+.item{
+	margin-bottom: 40px;
+
+}
+.tri{
+    position: absolute;
+    right: 15px;
+    top: 0px;
+    width: 0px;
+    height: 0px;
+    border-top: 14px solid #ff696e;
+    border-bottom: 47px solid transparent;
+    border-left: 23px solid transparent;
+    border-right: 78px solid #ff696e;
+
+}
+.test_p{
+    
+    position: absolute;
+    top: 4px;
+    font-weight: 700;
+    right: 16px;
+    color: white;
+    letter-spacing: 1px;
+}
+.image{
+	overflow: hidden;
+	height: 640px;
+	cursor: pointer;
+	justify-content: center;
+}
+.dress,.dress1,.dress2,.dress3,.dress4,.dress5,.dress6{
+	width: 100%;
+	height: 100%;
+}
+.dress:hover {
+	transform: scale(1.07);
+	transition: all ease 0.7s;
+	
+}
+
+.about{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px !important;
+    margin-top: 10px;
+    color: black;
+    letter-spacing: 0.2em !important;
+
+}
+.name{
+	font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 5px !important;
+    color: #726c6c;
+    letter-spacing: 0.2em !important;
+}
+.price{
+	font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: black;
+    letter-spacing: 0.1em !important;
+}

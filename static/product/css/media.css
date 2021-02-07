@@ -1,0 +1,143 @@
+
+
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 320.98px) {
+
+.image {
+    height: 350px;
+}
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+
+}
+
+}
+
+/*custom media*/
+@media (min-width: 321px) and (max-width: 575.98px){
+
+	.custom_fluid{
+		width: 95% !important;
+	}
+	.image {
+    height: 410px;
+}
+
+}
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*product start*/
+	.product {
+    padding: 0px 5px;
+}
+.col-6{
+	margin-left: -2px !important;
+}
+.image {
+    height: 540px;
+    width: 359px;
+}
+/*.item{
+	margin-right: 5px;
+}*/
+.item:first-child{
+	margin-left: -5px !important;
+
+}
+.tri {
+    right: 10px;
+    }
+.test_p {
+    right: 11px;
+}
+
+
+	/*product end*/
+
+}
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	/*product start*/
+	.product {
+    padding: 0px 9px;
+}
+.col-6{
+	margin-left: -2px !important;
+}
+.image {
+    height: 540px;
+    width: 340px;
+}
+/*.item{
+	margin-right: 5px;
+}*/
+.item:first-child{
+	margin-left: -5px !important;
+
+}
+.tri {
+    right: 10px;
+}
+.test_p {
+    right: 10px;
+}
+
+
+	/*product end*/
+
+}
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*product start*/
+	.image {
+    height: 448px;
+    width: 306px;
+}
+.item:first-child{
+	margin-left: -5px !important;
+
+}
+.tri {
+    right: -2px;
+}
+    .test_p {
+    right: -1px;
+}
+	/*product end*/
+
+
+}
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1440px) {
+
+}
+
+/*custom media*/
+
+@media (min-width: 1441px) and (max-width: 1800px) {
+	/*product start*/
+.image {
+    height: 585px;
+}
+
+
+}
+/*custom media*/
+
+@media (min-width: 1801px) and (max-width: 2600px) {
+	/*product start*/
+	.custom_fluid{
+		width: 80% !important;
+	}
+.image {
+    height: 940px;
+}
+
+
+}
